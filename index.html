@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hng Task one</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="profile">
+        <img data-testid="slackProfilePicture" class="imager" src="./image/profile2.png" alt="" />
+        <div class="content">
+          <p data-testid="slackDisplayName">
+            Slack Display Name: <span>Dan.dev</span>
+          </p>
+          <p data-testid="currentTimeUTC">
+            Current Time (UTC): <span id="timeUTC"></span>
+          </p>
+          <p data-testid="currentDay">
+            Current Day: <span id="currentDay"></span>
+          </p>
+          <p data-testid="slackEmail">
+            Slack Email: <span>danielibekwe222@gmail.com</span>
+          </p>
+          <div class="useful-links">
+            <h4>Useful Links</h4>
+            <div class="icon">
+              <div>
+                <i class="ri-graduation-cap-fill"></i>
+                <a data-testid="hngLink" href="https://hng.tech/learn">HNG Tech Learn</a>
+              </div>
+              <div>
+                <i class="ri-focus-3-fill"></i>
+                <a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a>
+              </div>
+              <div>
+                <i class="ri-forbid-2-fill"></i>
+                <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape Any Web</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="heading">My Tech Goals in 2years</h1>
+      <div class="timeline">
+        <div class="container left-container">
+          <div class="img-hold">
+            <img class="iim" src="./image/react.png" alt="" />
+          </div>
+          <div class="text-box">
+            <h2>Master React JS and build complex web applications</h2>
+            <ol>
+              <li>Complete online courses and tutorials on React JS</li>
+              <li>
+                Build several small projects to understand the fundamentals.
+              </li>
+              <li>Read and understand the official React documentation.</li>
+            </ol>
+            <div class="left-container-arrow"></div>
+          </div>
+        </div>
+        <div class="container right-container">
+          <div class="img-hold">
+            <img src="./image/typescript.png" alt="" />
+          </div>
+          <div class="text-box">
+            <h2>Learn TypeScript to Enhance My JavaScript Skills</h2>
+            <ol>
+              <li>Complete online courses and tutorials on TypeScript.</li>
+              <li>Convert existing JavaScript projects to TypeScript.</li>
+              <li>
+                Read and understand the official TypeScript documentation.
+              </li>
+            </ol>
+            <div class="right-container-arrow"></div>
+          </div>
+        </div>
+        <div class="container left-container">
+          <div class="img-hold"><img src="./image/github.png" alt="" /></div>
+          <div class="text-box">
+            <h2>Contribute to Open Source Projects</h2>
+            <ol>
+              <li>
+                Identify projects that align with my interests and skills.
+              </li>
+              <li>
+                Engage with the community and maintainers of the projects.
+              </li>
+              <li>Attend open source conferences and meetups.</li>
+            </ol>
+            <div class="left-container-arrow"></div>
+          </div>
+        </div>
+        <div class="container right-container">
+          <div class="img-hold"><img src="./image/portfolio.png" alt="" /></div>
+          <div class="text-box">
+            <h2>Build a Personal Portfolio Website</h2>
+            <ol>
+              <li>Design the layout and structure of the website.</li>
+              <li>Showcase my projects and achievements on the website.</li>
+              <li>
+                Regularly update the website with new projects and content.
+              </li>
+            </ol>
+            <div class="right-container-arrow"></div>
+          </div>
+        </div>
+        <div class="container left-container">
+          <div class="img-hold">
+            <img src="./image/businessman.png" alt="" />
+          </div>
+          <div class="text-box">
+            <h2>Secure a Full-Time Job as a Front-End Developer</h2>
+            <ol>
+              <li>Enhance my resume and LinkedIn profile.</li>
+              <li>Apply to job openings that match my skills and interests.</li>
+              <li>Network with professionals in the industry.</li>
+            </ol>
+            <div class="left-container-arrow"></div>
+          </div>
+        </div>
+        <div class="container right-container">
+          <div class="img-hold"><img src="./image/trend.png" alt="" /></div>
+          <div class="text-box">
+            <h2>
+              Stay Updated with the Latest Web Development Trends and
+              Technologies
+            </h2>
+            <ol>
+              <li>Read industry blogs and publications regularly.</li>
+              <li>Subscribe to newsletters and podcasts.</li>
+              <li>
+                Engage with the developer community on social media and forums.
+              </li>
+            </ol>
+            <div class="right-container-arrow"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./App.js"></script>
+  </body>
+</html>
